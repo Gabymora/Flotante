@@ -1,6 +1,7 @@
 div>div {
 	height: 100px;
 	width: 25%;
+	float: left;
 }	
 .amarillo {
 	background-color: yellow;
@@ -15,4 +16,12 @@ div>div {
 	width: 800px;
 	margin-top: 20px;
 	border: 2px green solid;
+}
+/*--------Parte del div principal-------*/
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
 }
